@@ -1,4 +1,4 @@
-# User Dropdown — Interactive Mockup
+# User Dropdown
 
 An interactive HTML/CSS/JS mockup of a user profile dropdown, built from the Figma file *User Dropdown Function*.
 
