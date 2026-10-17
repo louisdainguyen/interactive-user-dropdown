@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Interactive mockup of a user profile dropdown with submenus, account and space switching, and light/dark themes.">
+<title>User Dropdown — Interactive Mockup</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="stage" id="stage"><div class="scaler" id="scaler"><div id="ud"></div></div></div>
+<button class="theme" id="theme" type="button" aria-label="Switch to dark mode">
+  <svg class="moon" viewBox="0 0 20 20" aria-hidden="true"><path d="M16.5 11.6A6.8 6.8 0 0 1 8.4 3.5a6.8 6.8 0 1 0 8.1 8.1Z"/></svg>
+  <svg class="sun" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="3.4"/><path d="M10 2.2v1.6M10 16.2v1.6M2.2 10h1.6M16.2 10h1.6M4.5 4.5l1.1 1.1M14.4 14.4l1.1 1.1M4.5 15.5l1.1-1.1M14.4 5.6l1.1-1.1"/></svg>
+  <span class="lbl">Dark</span></button>
+<div class="hint" id="hint"><span class="d">Click the profile card to open the menu</span><span class="m">Tap the profile card to open the menu</span></div>
+<script src="js/icons.js"></script>
+<script src="js/component.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
